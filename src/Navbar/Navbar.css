@@ -1,0 +1,42 @@
+.app__navbar {
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background-color: black;
+   padding: 1rem 2rem;
+}
+
+.app__navbar-list {
+   display: flex;
+   justify-content: center;
+   flex:1;
+   align-items: center;
+   list-style: none;
+
+}
+
+.app__navbar-list li{
+  margin: 0 1rem;
+  cursor: pointer;
+
+}
+
+.app__navbar-list li:hover{
+  color: goldenrod;
+
+}
+
+.app__navbar-list a:hover{
+  border-bottom: 1px solid goldenrod
+
+}
+
+.app__navbar-logo img{
+   width: 4rem;
+   height: 4rem;
+}
+
+.p__opensans {
+   color: white;
+}

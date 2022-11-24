@@ -1,0 +1,46 @@
+.app__header {
+    background-color: black;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.app__header-h1 {
+    font-family: var(--font-base);
+    color: var(--color-golden);
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    line-height: 117px;
+    font-size: 90px;
+    padding-top: 5rem;
+}
+
+@media screen and (min-width: 2000px) {
+    .app__header-h1 {
+        font-size: 180px;
+        line-height: 210px;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .app__header-h1 {
+        font-size: 50px;
+        line-height: 4rem;
+    }
+    .app__header_img img{
+    width: 80%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .app__header-h1 {
+        font-size: 70px;
+        line-height: 87px;
+    }
+
+    .app__header {
+    flex-direction: column;
+    }
+}
+
