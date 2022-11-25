@@ -1,0 +1,33 @@
+.app__aboutUs{
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.app__aboutUs h1 {
+    font-family: var(--font-base);
+    color: var(--color-golden);
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    line-height: 117px;
+    font-size: 90px;
+}
+
+.app__aboutUs p {
+    font-family: var(--font-base);
+    color: var(--color-golden);
+    line-height: 30px;
+    font-size: 2em;
+    padding-top: 5rem;
+}
+
+.app__aboutUs-icon {
+    color: var(--color-golden);
+    height: .8em;
+}
+
+
